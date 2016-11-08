@@ -1,0 +1,29 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    ActiveSheet.PivotTables("PivotTable1").AddDataField ActiveSheet.PivotTables( _
+        "PivotTable1").PivotFields("0-30Days(LocCur)"), "Count of 0-30Days(LocCur)", _
+        xlCount
+    ActiveSheet.PivotTables("PivotTable1").AddDataField ActiveSheet.PivotTables( _
+        "PivotTable1").PivotFields("31-60Days(LocCur)"), "Count of 31-60Days(LocCur)", _
+        xlCount
+    With ActiveSheet.PivotTables("PivotTable1").PivotFields( _
+        "Count of 31-60Days(LocCur)")
+        .Caption = "Sum of 31-60Days(LocCur)"
+        .Function = xlSum
+    End With
+    ActiveSheet.PivotTables("PivotTable1").AddDataField ActiveSheet.PivotTables( _
+        "PivotTable1").PivotFields("61-90Days(LocCur)"), "Count of 61-90Days(LocCur)", _
+        xlCount
+    ActiveSheet.PivotTables("PivotTable1").AddDataField ActiveSheet.PivotTables( _
+        "PivotTable1").PivotFields("61-90Days(LocCur)"), "Count of 61-90Days(LocCur)2" _
+        , xlCount
+    With ActiveSheet.PivotTables("PivotTable1").PivotFields( _
+        "Count of 61-90Days(LocCur)2")
+        .Caption = "Sum of 61-90Days(LocCur)2"
+        .Function = xlSum
+    End With
+End Sub

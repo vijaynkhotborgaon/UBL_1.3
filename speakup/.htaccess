@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?companyurl=$1
+
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?companyurl=$1&page=$2
+
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)/ticket-dasboard/([a-zA-Z0-9_-]+)$ index.php?companyurl=$1&page=ticket-dasboard&complaint-id=$2
+
+
+

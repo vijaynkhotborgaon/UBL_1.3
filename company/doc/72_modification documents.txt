@@ -1,0 +1,32 @@
+4 july
+----------
+
+1) Need anonymous and prefer to provide personal details options.
+2) The department option need not be a dropdown but will accept inputs from the user
+3) The category will remain a dropdown
+4) The SPOC reports will not have any personal details displayed - we iwll need to change the layout to show details of the case.
+5) The CAM/Admin will have 2 reports - the normal report that the SPOC gets and another option with the
+ 
+Below are the details of the theme for the website.
+ 
+Blue Background    Dark to light   0e467f to 1d7bae
+Blue Button        Dark to light   0c1153 to 231f90
+Blue Button        line            92c4e9
+RED Strip     930000
+
+-------------------------------------------------------------------------
+
+6 july
+-----------
+
+1) Change colour scheme for pages from Green to the Blue provided by the Adjetters team. (Layout panels, Tab back grounds)
+2) For the question - 'Do you choose to remain anonymous?' 
+        if Yes:The department disclosure should be optional
+        if No: The Department disclosure should be made mandatory
+3) Change the words 'Upload a document' to 'Upload supporting evidence (if any)'
+4) Change the alignment to 'Justified' for the terms and conditions and the privacy policy.
+5) Update logo containing white font in the landing page.(Chethan to provide logo)
+6) Use logo with (TM and C symbols) in the rest of the displays.
+7) Use reporting template (to be provided by Chethan) such that long text provided by employee is displayed well within the boundaries on the page.
+ 
+
